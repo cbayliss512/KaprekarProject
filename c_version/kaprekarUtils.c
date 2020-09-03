@@ -25,7 +25,7 @@
 int isKaprekar(int n) {
 
   if(n < 1) {
-    return fabsl;
+    return 0;
   }
 
   int i;
@@ -37,7 +37,7 @@ int isKaprekar(int n) {
   long first, second;
 
   //for each possible "split" of the square...
-  for(i=1; i<=numDigits; i++) {
+  for(i=0; i<=numDigits; i++) {
     //increase the modulus by a factor of 10
     modulus *= 10;
 
